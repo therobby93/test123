@@ -1,0 +1,202 @@
+<!doctype html>
+<htmL lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>HTML Section Notes</title>
+    </head>
+    <body>
+        <h1>Important Tag!</h1>
+        <h2>Less Important Tag! </h2>
+        <h3>Even less important tag!</h3>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+        <img src="LILOGO.jpg" alt="an image" height=100 width=100>
+        <a href="https://github.com/therobby93">CodingDojo</a>
+        <ol>
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>List Item</li>
+        </ol>
+        <ul>
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>List Item</li>
+            <li>List Item</li>
+        </ul>
+        <table>
+            <thead>
+                <th>Column</th>
+                <th>Column</th>
+                <th>Column</th>
+                <th>Column</th>
+                <th>Column</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Table data </td>
+                    <td>Table data </td>
+                    <td>Table data </td>
+                    <td>Table data </td>
+                    <td>Table data </td>
+                </tr>
+                <tr>
+                    <td>Table data </td>
+                    <td>Table data </td>
+                    <td>Table data </td>
+                    <td>Table data </td>
+                    <td>Table data </td>
+                </tr>
+            </tbody>
+        </table>
+        <table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone number</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Sample Name</td>
+            <td>an_email@gmail.com</td>
+            <td>555-5555</td>
+        </tr>
+        <tr>
+            <td>Another Name</td>
+            <td>another_email@gmail.com</td>
+            <td>444-4444</td>
+        </tr>
+    </tbody>
+</table>
+
+<div>
+<br>
+    <label>
+        First Name:<input type="text" name="first_name">
+    </label>
+    <label>
+        Last Name:<input type="text" name="last_name">
+    </label>
+    <label>
+        Email:<input type="text" name="email">
+    </label>
+
+    <br>
+    <div>
+    <label>
+         Password: <input type="password" name="password">
+    </label>
+    <br>
+    <label>
+        <input type="radio" name="gender" value="male"> Male
+    </label>
+    <label>
+        <input type="radio" name="gender" value="female"> Female
+    </label>
+<br>
+    <select name="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+    </select>
+<br>
+    <label>
+        <input type="checkbox" name="color" value="blue">Blue
+    </label>
+    <label>
+        <input type="checkbox" name="color" value="green">Green
+    </label>
+    <label>
+        <input type="checkbox" name="color" value="red">Red
+    </label>
+    <label>
+        <input type="checkbox" name="color" value="black">Black
+    </label>
+    <label>
+        <input type="checkbox" name="color" value="Purple">Purple
+    </label>
+<br>
+
+<textarea name="description"></textarea>
+<br>
+
+<input type="hidden" name="id" value="7">
+<input type="submit" value="Submit">
+<br>
+<hr>
+<hr>
+<!--Sample full registration form -->
+<p>Sample full registration form</p>
+<form action="process.php" method="post">
+    <p>Please Register</p>
+    <label>
+        First Name:<input type="text" name="first_name">
+    </label>
+    <label>
+        Last Name:<input type="text" name="last_name">
+    </label>
+    <label>
+        Email:<input type="text" name="email">
+    </label>
+    <p>Select your gender:</p>
+    <label>
+        <input type="radio" name="gender" value="male"> Male
+    </label>
+    <label>
+        <input type="radio" name="gender" value="female"> Female
+    </label>
+    <p>Select 3 of your favorite colors:</p>
+    <label>
+        <input type="checkbox" name="color" value="blue">Blue
+    </label>
+    <label>
+        <input type="checkbox" name="color" value="green">Green
+    </label>
+    <label>
+        <input type="checkbox" name="color" value="red">Red
+    </label>
+    <label>
+        <input type="checkbox" name="color" value="black">Black
+    </label>
+    <label>
+        <input type="checkbox" name="color" value="Purple">Purple
+    </label>
+    <p>Say a few words about yourself:</p>
+    <textarea name="description"></textarea>
+    <label>
+        Password: <input type="password" name="password">
+    </label>
+   <label>
+        Password Confirm: <input type="password" name="password_confirmation">
+   </label>
+   <input type="submit" value="Click here to register">
+</form>
+<!--END OF PHP ******************************************* -->
+<hr>
+<br>
+    <p>Please Register</p>
+    <label for="form_name">Name:</label>
+        <input type="text" id="form_name" name="name">
+        <p>Select your gender:</p>
+        <input type="radio" name="gender" id="male_gender" value="male"> 
+    <label for="male_gender">Male</label>
+        <input type="radio" name="gender" id="female_gender" value="female">
+    <label for="female_gender">Female</label>
+        <p>For security, enter your password.</p>
+    <label for="form_password">Password:</label> 
+        <input type="password" id="form_password" name="password">
+        <input type="submit" value="Click here to register">
+<br>
+    <label for="form_name">Name:</label>
+    <input type="text" id="form_name" name="name">
+    <br>
+      <p>A great quote by Arthur C. Clarke states that <span id="quote"> any 
+        sufficiently advanced technology is indistinguishable from magic.</span></p>
+        <br>
+    </body>
+    <p> Some paragraph content. </p>
+    <!-- This is a comment -->
+
+</htmL>
